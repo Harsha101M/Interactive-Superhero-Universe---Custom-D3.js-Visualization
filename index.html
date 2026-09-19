@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Superhero Universe Visualization</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-column">
+            <h1>Superhero Universe Visualization</h1>
+            <p>
+                This interactive bubble chart visualization displays data on over 600 superheroes, grouped into 10 columns by combat ability. Each hero is sized by power and colored by alignment (white=good, black=bad, translucent=neutral). Click a hero to highlight them and their connections to other heroes from the same publisher. Hover over any bubble to see a tooltip with detailed stats and the hero's picture. The wide layout can be horizontally scrolled, with scroll indicators, smooth transitions, and keyboard arrow support for accessibility.
+                The visualization uses position (columns) to encode combat rating, size to represent power levels, and color to show alignment. Clicking a hero reveals publisher connections through curved links. Tooltips provide additional details on hover. The design aims to enable exploration of patterns and relationships across multiple dimensions in a large dataset.
+            </p>
+        </div>
+        <div class="header-column">
+            <h1>Category: Combinatorial Custom Visualization</h1>
+            <p>
+                This submission falls into the combinatorial category because it integrates several existing chart types and interaction techniques in a novel way. The foundation is a bubble chart, enhanced with force-directed layout for clustering, size and color encoding, and a wide scrollable format. Interactive highlighting of connections resembles a node-link diagram. The dynamic tooltips draw from standard information dashboard designs. While these elements may exist independently, their purposeful combination here creates an engaging and insightful visualization tailored for exploring the superhero dataset.
+            </p>
+        </div>
+    </header>
+    <main>
+        <div id="viz"></div>
+    </main>
+    <div class="scroll-indicator left">← Scroll</div>
+    <div class="scroll-indicator right">Scroll →</div>
+    <script src="script.js"></script>
+</body>
+</html>
