@@ -2,9 +2,9 @@
 
 An interactive "museum exhibit" data visualization that maps 600+ superheroes into a single scrollable view, built with [D3.js](https://d3js.org/). Each hero is encoded by power, combat ability, alignment, and publisher, with click and hover interactions for exploring the dataset.
 
-**[▶ Live demo](https://YOUR-USERNAME.github.io/superhero-d3-visualization/)** · *(replace with your GitHub Pages URL)*
+**[▶ Live demo](https://harsha101m.github.io/Interactive-Superhero-Universe---Custom-D3.js-Visualization/)** · *(replace with your GitHub Pages URL)*
 
-![Screenshot of the visualization](screenshot.png)
+![Screenshot of the visualization](hmallubh.png)
 
 ## Overview
 
